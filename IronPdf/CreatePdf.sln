@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreatePdf", "..\CreatePdf\CreatePdf.csproj", "{CEE186D0-D4F7-4031-A12B-1E8393231B17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IronPdf", "IronPdf", "{F27403BE-CFBD-4488-B905-967A4CB5B473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronPDF", "IronPDF\IronPDF.csproj", "{5A7C729C-047E-4B07-AC11-73D50BDDBAFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronPDf1", "..\IronPDf1\IronPDf1.csproj", "{EF835F5D-E2AA-4EFF-A67A-0CBF52110095}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DinkToPdf", "DinkToPdf", "{67F33780-C95A-4248-B152-BAF68836CD3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinkToPDF", "..\DinkToPDF\DinkToPDF.csproj", "{4F1564B2-E6AC-4D9E-98EC-BA5D6E4CBC28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEE186D0-D4F7-4031-A12B-1E8393231B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE186D0-D4F7-4031-A12B-1E8393231B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE186D0-D4F7-4031-A12B-1E8393231B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE186D0-D4F7-4031-A12B-1E8393231B17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A7C729C-047E-4B07-AC11-73D50BDDBAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7C729C-047E-4B07-AC11-73D50BDDBAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7C729C-047E-4B07-AC11-73D50BDDBAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7C729C-047E-4B07-AC11-73D50BDDBAFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF835F5D-E2AA-4EFF-A67A-0CBF52110095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF835F5D-E2AA-4EFF-A67A-0CBF52110095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF835F5D-E2AA-4EFF-A67A-0CBF52110095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF835F5D-E2AA-4EFF-A67A-0CBF52110095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1564B2-E6AC-4D9E-98EC-BA5D6E4CBC28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1564B2-E6AC-4D9E-98EC-BA5D6E4CBC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1564B2-E6AC-4D9E-98EC-BA5D6E4CBC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1564B2-E6AC-4D9E-98EC-BA5D6E4CBC28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A7C729C-047E-4B07-AC11-73D50BDDBAFE} = {F27403BE-CFBD-4488-B905-967A4CB5B473}
+		{EF835F5D-E2AA-4EFF-A67A-0CBF52110095} = {F27403BE-CFBD-4488-B905-967A4CB5B473}
+		{4F1564B2-E6AC-4D9E-98EC-BA5D6E4CBC28} = {67F33780-C95A-4248-B152-BAF68836CD3E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17E69DCE-A834-45D8-BC60-6E64F5D8E4A4}
+	EndGlobalSection
+EndGlobal
